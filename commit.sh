@@ -40,9 +40,9 @@ else
     echo
     #echo -n "hello" | openssl sha1
     hash=$( echo -n $password | openssl sha1 )
-    #echo $hash 
+    echo $hash 
 
-    shaofpass="(stdin)= 9c664381e5b87b01ae3a9eb599830a8d504e3bb8"
+    shaofpass="(stdin)= b1b3773a05c0ed0176787a4f1574ff0075f7521e"
 
     if [[ "$shaofpass" == "$hash" ]] ; then
         git add .
