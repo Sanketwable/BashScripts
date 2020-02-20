@@ -40,7 +40,7 @@ else
     echo
     #echo -n "hello" | openssl sha1
     hash=$( echo -n $password | openssl sha1 )
-    echo $hash 
+    #echo $hash 
 
     shaofpass="(stdin)= b1b3773a05c0ed0176787a4f1574ff0075f7521e"
 
