@@ -4,14 +4,14 @@ if [ "$1" == "--h" ] | [ "$1" == "-h" ] | [ "$1" == "-help" ] ; then
     echo -e "1. To change password \n    \$commit -cp"
     echo -e "2. To update\n    \$commit -update "
 else
-    echo -e "Enter commit message \n>> "
+    echo -e -n "Enter commit message \n>> "
     read -r message
     #echo $message
     unset password
     unset shapassword
     var="$(pwd)"
     cd "$var"
-    echo -n "Enter password to commit changes to github >> "
+    echo -n -e "Enter password to commit changes to github \n>> "
 
     stty -echo
 
