@@ -4,7 +4,7 @@ if [ "$1" == "--h" ] | [ "$1" == "-h" ] | [ "$1" == "-help" ] ; then
     echo -e "1. To change password \n    \$commit -cp"
     echo -e "2. To update\n    \$commit -update "
 else
-    echo "Enter commit message >> "
+    echo -e "Enter commit message \n>> "
     read -r message
     #echo $message
     unset password
