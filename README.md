@@ -35,7 +35,7 @@
   Enter password >> ******
   commit sucessfull :-)
   ```
-  ![alt text](https://github.com/Sanketwable/BashScripts/blob/master/img/terminalimage.png)
+  ![alt text](https://github.com/Sanketwable/BashScripts/blob/master/img/terminalimage1.png)
 ###### Default password = 'qwerty'
                         
                       
