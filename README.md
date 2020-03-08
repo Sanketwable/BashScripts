@@ -1,5 +1,5 @@
 # BashScripts
-********************************************************************
+****************************************************************************
 ### 1. Commit
 
   ***commit is script to git add + git commit + git push***
@@ -17,6 +17,28 @@
  $ echo 'alias commit=source ~/BashScript/commit.sh' >>~/.bash_profile
  
  $ source ~/.bash_profile
+   ```
+#### Installation steps: *(for linux)*
+   ```bash
+ $ cd
+ 
+ $ git clone https://github.com/Sanketwable/BashScripts.git
+ 
+ $ cd BashScript
+ 
+ $ cp commit.sh ~/
+ 
+ $ cd ..
+ 
+ $ chmod +x commit.sh
+ 
+ $ mv commit.sh .commit.sh
+ 
+ $ echo 'alias commit=~/.commit.sh' >>~/.bash_profile
+ 
+ $ source ~/.bash_profile
+ 
+ $ source ~/.bashrc
    ```
 #### for help 
   ```bash
